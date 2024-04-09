@@ -11,7 +11,7 @@ const connectToDB = () => {
     .then(() => {
       console.log("connection established successfully!");
     })
-    .catch((err) => console.log("some error occurred", err.message));
+    .catch((err) => console.log("some error occurred", err.message))
 };
 
 export default connectToDB;
